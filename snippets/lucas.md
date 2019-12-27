@@ -3,10 +3,10 @@ title: lucas
 tags: math,intermediate
 ---
 
-Returns an array of Lucas numbers with a length of ```n```
+Returns an array of Lucas numbers with a length of `n`
 
-Initialize an array `l` with elements ```[2,1]```. For each number from 3 to ```n```,
-use ```append!``` to join `l` with the sum of its two latest elements. 
+Initialize an array `l` with elements `[2,1]`. For each number from 3 to `n`,
+use `append!` to join `l` with the sum of its two latest elements. 
 
 ```jl
 function lucas(n)
